@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import About from "./Components/About";
-import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
@@ -47,7 +46,6 @@ export default function Home() {
       <Services isDarkMode={isDarkMode}/>
       <CodingStats isDarkMode={isDarkMode}/>
       <Work isDarkMode={isDarkMode}/>
-      <Contact isDarkMode={isDarkMode}/>
       <Footer isDarkMode={isDarkMode}/>
     </>
   );
